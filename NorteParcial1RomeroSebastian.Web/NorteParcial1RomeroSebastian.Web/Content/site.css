@@ -1,0 +1,26 @@
+﻿
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: block;
+    background-color: #286af0;
+    padding: 15px 0px;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    padding: 5px 0px;
+    background-color: #286af0;
+    text-align: center;
+    color: #fafafa;
+    text-decoration: underline;
+}
