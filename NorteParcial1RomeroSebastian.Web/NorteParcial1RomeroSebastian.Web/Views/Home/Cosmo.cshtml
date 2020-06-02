@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "Cosmo";
+}
+
+<h2>Constelación:</h2>
+<hr />
+<div>
+    <table border="0">
+        <tr>
+            <th>Siglo</th>
+            <td>
+                <input type="text" name="siglo" value="" id="siglo"/>
+            </td>
+        </tr>
+        <tr>
+            <th>Nombre</th>
+            <td>
+                <input type="text" name="nombre" value="" id="nombre"/>
+            </td>
+        </tr>
+        <tr>
+            <th></th>
+            <td>
+                <input id="btnSave" type="button" value="Grabar" class="button-success color-success" onclick="guardarDatos"/>
+                <input id="btnList" type="button" value="Listar constelaciones" class="button-default color-default" onclick="listarValores"/>
+            </td>
+        </tr>
+    </table>
+</div>
+<hr />
+<div id="resultado">
+
+</div>
+
+@section scripts{
+    
+    <script>
+
+        var vector = [];
+
+        function guardarDatos() {
+            var siglo = document.getElementById('nombre').value;
+            var nombre = document.getElementById('siglo').value;
+        }
+
+        function listarValores{
+
+            for (var i = 0; i < vector.length; i++) {
+
+                strDAtos += vector[i] + "<br />";
+            }
+        }
+
+
+  
+
+    </script>
+    
+    }
+

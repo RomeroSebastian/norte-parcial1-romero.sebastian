@@ -13,5 +13,10 @@ namespace NorteParcial1RomeroSebastian.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult Cosmo()
+        {
+            return View();
+        }
     }
 }

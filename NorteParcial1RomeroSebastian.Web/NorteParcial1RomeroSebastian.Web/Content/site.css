@@ -66,3 +66,23 @@ aside {
     border-color: red;
     padding: 10px 0px 10px 0px;
 }
+
+.button-success, .button-error, .button-default {
+    color: #fff;
+    border-radius: 5px;
+    font-size: 85%;
+    height: 35px;
+}
+
+.color-success {
+    background: rgb(28,185,65);
+}
+
+.color-error {
+    background: rgb(255, 0, 0);
+}
+
+.color-default {
+    background: rgb(237, 227, 227);
+    color: #000;
+}
